@@ -13,9 +13,12 @@
 		7FB0EAEB245405AF0033D878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB0EAE9245405AF0033D878 /* Main.storyboard */; };
 		7FB0EAED245405B00033D878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB0EAEC245405B00033D878 /* Assets.xcassets */; };
 		7FB0EAF0245405B00033D878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB0EAEE245405B00033D878 /* LaunchScreen.storyboard */; };
+		AB4DE4D4A25E4D7FD09846F6 /* Pods_BlurModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC06C80C75649F56B288A2E /* Pods_BlurModal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50E35ED5B59D71768B694469 /* Pods-BlurModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurModal.release.xcconfig"; path = "Target Support Files/Pods-BlurModal/Pods-BlurModal.release.xcconfig"; sourceTree = "<group>"; };
+		7BC06C80C75649F56B288A2E /* Pods_BlurModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlurModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB0EAE0245405AF0033D878 /* BlurModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB0EAE3245405AF0033D878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FB0EAE5245405AF0033D878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7FB0EAEC245405B00033D878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB0EAEF245405B00033D878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB0EAF1245405B00033D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CCCB092D2361E657258655 /* Pods-BlurModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurModal.debug.xcconfig"; path = "Target Support Files/Pods-BlurModal/Pods-BlurModal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4DE4D4A25E4D7FD09846F6 /* Pods_BlurModal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				7FB0EAE2245405AF0033D878 /* BlurModal */,
 				7FB0EAE1245405AF0033D878 /* Products */,
+				E518EBFA21E8EAB2C8047A28 /* Pods */,
+				C06BAC56AAF83E3B3504E0EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = BlurModal;
 			sourceTree = "<group>";
 		};
+		C06BAC56AAF83E3B3504E0EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC06C80C75649F56B288A2E /* Pods_BlurModal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E518EBFA21E8EAB2C8047A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB092D2361E657258655 /* Pods-BlurModal.debug.xcconfig */,
+				50E35ED5B59D71768B694469 /* Pods-BlurModal.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FB0EAF4245405B00033D878 /* Build configuration list for PBXNativeTarget "BlurModal" */;
 			buildPhases = (
+				26AE17320C8C2899E520AFC3 /* [CP] Check Pods Manifest.lock */,
 				7FB0EADC245405AF0033D878 /* Sources */,
 				7FB0EADD245405AF0033D878 /* Frameworks */,
 				7FB0EADE245405AF0033D878 /* Resources */,
+				B2BFA791F65B5E3C77E2921F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26AE17320C8C2899E520AFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlurModal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2BFA791F65B5E3C77E2921F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlurModal/Pods-BlurModal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlurModal/Pods-BlurModal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlurModal/Pods-BlurModal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FB0EADC245405AF0033D878 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		7FB0EAF5245405B00033D878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CCCB092D2361E657258655 /* Pods-BlurModal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		7FB0EAF6245405B00033D878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E35ED5B59D71768B694469 /* Pods-BlurModal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

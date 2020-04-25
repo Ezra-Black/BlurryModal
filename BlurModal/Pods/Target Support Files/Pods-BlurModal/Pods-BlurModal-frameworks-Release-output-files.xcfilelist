@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlurryModalSegue.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIImage_BlurredFrame.framework

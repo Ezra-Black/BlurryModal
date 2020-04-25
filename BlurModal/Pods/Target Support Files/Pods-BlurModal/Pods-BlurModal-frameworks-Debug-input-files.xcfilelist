@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-BlurModal/Pods-BlurModal-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BlurryModalSegue/BlurryModalSegue.framework
+${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework
+${BUILT_PRODUCTS_DIR}/UIImage+BlurredFrame/UIImage_BlurredFrame.framework

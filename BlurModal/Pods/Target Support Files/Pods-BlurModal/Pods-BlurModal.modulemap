@@ -1,0 +1,6 @@
+framework module Pods_BlurModal {
+  umbrella header "Pods-BlurModal-umbrella.h"
+
+  export *
+  module * { export * }
+}

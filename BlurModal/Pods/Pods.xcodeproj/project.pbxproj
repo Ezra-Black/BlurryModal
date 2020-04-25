@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3028573BFF37491691444119DB37D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */; };
+		1D74987F3461242F1E9D8AFCD386AA8E /* UIImage+BlurredFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 298C6D71F674C72FC6ADAD02324AD8C0 /* UIImage+BlurredFrame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2650F23312684B8373FDA1E2EA005E26 /* Pods-BlurModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FAF7D5A8C974EF16AFFC2E97295D47 /* Pods-BlurModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28D84DA42D7071B276765B653C14A4D2 /* BlurryModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C432A8BE9ACD75719382137A3F7CC /* BlurryModalSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524434378FD73FFE267594F09B2076E7 /* UIImage_BlurredFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875066AFDF1FA90B9F1963916DACBD98 /* UIImage_BlurredFrame.framework */; };
+		71501BC07874A5BC261129E780709A27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70417FCC6A21BA83725E5B0E979C96D5 /* QuartzCore.framework */; };
+		7D5F2C1FB60E55652A3293FC2A305065 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71AED63E2BB05E6EB106495E75CF86 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88CE273D4F2D706DEA6EBDADDEE97B0C /* BlurryModalSegue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9361D7090C13830D41EE0CFDBD8A4DD4 /* BlurryModalSegue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9527681118DA59B9263459AB5C6A85E5 /* MZAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 681496D8A4B59B0F8D7CCB2A7F1861FA /* MZAppearance-dummy.m */; };
+		9806A20A59B2A432A79BB910FE892EAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */; };
+		A40229A0DE1B71243FC74268FDAFC912 /* NSInvocation+Copy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A15ADF4B109E7F7288056AB656792F0 /* NSInvocation+Copy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE92E70FB4ED04984EE7278570FD8767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */; };
+		B21CDF31E812E03D5A31C72552949541 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = DA829F980A924A55DE6CBE850CC37918 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B357F6896F96DB57BCC803804F887D1C /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43BD2064B64FFA3C6524E2BE80A4E7 /* MZAppearance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9BA3C333B4550B26939C3DCAAB4A10B /* Pods-BlurModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9082B9315ABFE8FBF13FA9700A0B2E03 /* Pods-BlurModal-dummy.m */; };
+		B9BED93FA4ABEF835D1D538887F14348 /* UIImage+BlurredFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9934D6798241589DF6101B7B09F1EA /* UIImage+BlurredFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A2CC4E7EA4500EAC20B19C44DFF575 /* UIImage+BlurredFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1656727944155F3B7B71651859D2AF /* UIImage+BlurredFrame-dummy.m */; };
+		D0171AAA6E020B5E2357F5FE42B432D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70417FCC6A21BA83725E5B0E979C96D5 /* QuartzCore.framework */; };
+		D2159EDFEE32C8CB8641D0B72D74B0AC /* BlurryModalSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4AA7869341832A894C0B64CE855702 /* BlurryModalSegue-dummy.m */; };
+		D3A59411F01A7598EF419E9E5EB64F42 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = A221F1F57CBFBF3296DC4A68479569D6 /* NSInvocation+Copy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D90EED71FBD10581FC6A6167AF3B7A41 /* UIImage+BlurredFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 662FCD0572C07F21FB8539202AFCE589 /* UIImage+BlurredFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B7ED24D3E3B1232C350912D6B4944B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */; };
+		E726958754EE617C438F35EC629663B0 /* BlurryModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C155696EEDD5AD76E98A87D6FB5C659 /* BlurryModalSegue.m */; };
+		E75FE8936B2C40273093DA946C7784AC /* MZAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2719D037C0DF5D17226291CABD839E1 /* MZAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DA0E889AB39F9179C87819A27842B6 /* MZAppearance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63489BE4BAA35806799F78A9C466E155 /* MZAppearance.framework */; };
+		F2057FE552D38389C09DCECD6EFE5D4C /* MZAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = A27B88A87156E12CBBB753D365E709A7 /* MZAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ABA90CB8B97C79961033933D221453D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793799F6E598EF23DACB88E3C9CF8E48;
+			remoteInfo = MZAppearance;
+		};
+		10CB75EB559F19C343D7AF42C94CB650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32297E4E5CA00F1079CF19B0F5BEBB3A;
+			remoteInfo = BlurryModalSegue;
+		};
+		66D23F414B3D799ADFC07E665627F13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793799F6E598EF23DACB88E3C9CF8E48;
+			remoteInfo = MZAppearance;
+		};
+		A27220EB59B18BFDF67270B2B8C741FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32BBF1DDC9AD9E950BA1F464494B13;
+			remoteInfo = "UIImage+BlurredFrame";
+		};
+		F715404B4B781205488B4AD786BBE345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32BBF1DDC9AD9E950BA1F464494B13;
+			remoteInfo = "UIImage+BlurredFrame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07921233F52CA3F6B57579674D05099D /* Pods-BlurModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlurModal.debug.xcconfig"; sourceTree = "<group>"; };
+		082C432A8BE9ACD75719382137A3F7CC /* BlurryModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlurryModalSegue.h; path = BlurryModalSegue/BlurryModalSegue.h; sourceTree = "<group>"; };
+		0E8A6F2264EAAF0F0F5046E588A129D4 /* MZAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAppearance-prefix.pch"; sourceTree = "<group>"; };
+		116D3F8E1CF1E134D3543D61ED71A874 /* UIImage_BlurredFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIImage_BlurredFrame.framework; path = "UIImage+BlurredFrame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FAF7D5A8C974EF16AFFC2E97295D47 /* Pods-BlurModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlurModal-umbrella.h"; sourceTree = "<group>"; };
+		18FC26B52FB0B433BBB524FE6DAC70F4 /* MZAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAppearance.release.xcconfig; sourceTree = "<group>"; };
+		197D65614998962FF23C7CD6290BE03C /* UIImage+BlurredFrame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIImage+BlurredFrame-Info.plist"; sourceTree = "<group>"; };
+		1A0242674D981D3D73E0DD059793052A /* MZAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MZAppearance-Info.plist"; sourceTree = "<group>"; };
+		1BB3E5C9B7B20F8A5C5347ABAA7B0B41 /* Pods-BlurModal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlurModal-frameworks.sh"; sourceTree = "<group>"; };
+		1D1656727944155F3B7B71651859D2AF /* UIImage+BlurredFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurredFrame-dummy.m"; sourceTree = "<group>"; };
+		298C6D71F674C72FC6ADAD02324AD8C0 /* UIImage+BlurredFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurredFrame.m"; sourceTree = "<group>"; };
+		3E84FC859B7E2FAC71660942AE863F9F /* BlurryModalSegue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlurryModalSegue-Info.plist"; sourceTree = "<group>"; };
+		3F1088A590A6B8F7B073B28E1DF764EE /* MZAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MZAppearance.framework; path = MZAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4417676A25A074721D7AB67D119E145A /* Pods-BlurModal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlurModal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4619A8A7F5059958F1E37EDA9A91CF3E /* BlurryModalSegue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlurryModalSegue.modulemap; sourceTree = "<group>"; };
+		4981916930359C342E44D3473A314871 /* BlurryModalSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlurryModalSegue-prefix.pch"; sourceTree = "<group>"; };
+		4A15ADF4B109E7F7288056AB656792F0 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Copy.h"; path = "MZAppearance/NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		58540C278D2DF6C2D7ADE4EC98357382 /* BlurryModalSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlurryModalSegue.framework; path = BlurryModalSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7311339CFC79909A377D5223252745 /* MZAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZAppearance.modulemap; sourceTree = "<group>"; };
+		606437D16003AA5C72CF930AEBDBF5A1 /* UIImage+BlurredFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BlurredFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		63489BE4BAA35806799F78A9C466E155 /* MZAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662FCD0572C07F21FB8539202AFCE589 /* UIImage+BlurredFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurredFrame.h"; sourceTree = "<group>"; };
+		681496D8A4B59B0F8D7CCB2A7F1861FA /* MZAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZAppearance-dummy.m"; sourceTree = "<group>"; };
+		6A9934D6798241589DF6101B7B09F1EA /* UIImage+BlurredFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurredFrame-umbrella.h"; sourceTree = "<group>"; };
+		6E43BD2064B64FFA3C6524E2BE80A4E7 /* MZAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZAppearance.m; path = MZAppearance/MZAppearance.m; sourceTree = "<group>"; };
+		70417FCC6A21BA83725E5B0E979C96D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7C155696EEDD5AD76E98A87D6FB5C659 /* BlurryModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlurryModalSegue.m; path = BlurryModalSegue/BlurryModalSegue.m; sourceTree = "<group>"; };
+		7D4AA7869341832A894C0B64CE855702 /* BlurryModalSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlurryModalSegue-dummy.m"; sourceTree = "<group>"; };
+		875066AFDF1FA90B9F1963916DACBD98 /* UIImage_BlurredFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BlurredFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDE8864381041A56675386778510E30 /* UIImage+BlurredFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIImage+BlurredFrame.modulemap"; sourceTree = "<group>"; };
+		9082B9315ABFE8FBF13FA9700A0B2E03 /* Pods-BlurModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlurModal-dummy.m"; sourceTree = "<group>"; };
+		9361D7090C13830D41EE0CFDBD8A4DD4 /* BlurryModalSegue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlurryModalSegue-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A221F1F57CBFBF3296DC4A68479569D6 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+Copy.m"; path = "MZAppearance/NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		A27B88A87156E12CBBB753D365E709A7 /* MZAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZAppearance.h; path = MZAppearance/MZAppearance.h; sourceTree = "<group>"; };
+		A693E809D7F82EF89235792A4E688470 /* MZAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAppearance.debug.xcconfig; sourceTree = "<group>"; };
+		AF27DBF4ACF3A7523705C553FDC7F2C5 /* Pods-BlurModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlurModal-Info.plist"; sourceTree = "<group>"; };
+		B1ED6A3D53FD541B2BDB1AF2117BE940 /* Pods-BlurModal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlurModal-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2719D037C0DF5D17226291CABD839E1 /* MZAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAppearance-umbrella.h"; sourceTree = "<group>"; };
+		B28058144F827C70AF4E99F20572040C /* UIImage+BlurredFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BlurredFrame.release.xcconfig"; sourceTree = "<group>"; };
+		B7155DB2E279BF6CB7A45106DED46E64 /* Pods-BlurModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlurModal.release.xcconfig"; sourceTree = "<group>"; };
+		BF71AED63E2BB05E6EB106495E75CF86 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		C93FAFE32D177B81C2FA34CB8CFB5D7C /* BlurryModalSegue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlurryModalSegue.release.xcconfig; sourceTree = "<group>"; };
+		C971247FC24190ABBCD1177EAE2F370C /* UIImage+BlurredFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurredFrame-prefix.pch"; sourceTree = "<group>"; };
+		CA407ACF491D409D5BAAB63B0533F128 /* Pods_BlurModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlurModal.framework; path = "Pods-BlurModal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34AF518B8995025877437FBE2075A87 /* Pods-BlurModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlurModal.modulemap"; sourceTree = "<group>"; };
+		D8649CC9556FE95E14E3C3BFAAD480E1 /* BlurryModalSegue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlurryModalSegue.debug.xcconfig; sourceTree = "<group>"; };
+		DA829F980A924A55DE6CBE850CC37918 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306DD9D34D54891133CBBA919C16F2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92E70FB4ED04984EE7278570FD8767 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733ED3C09EDBEF4B71FB2951F0029C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3028573BFF37491691444119DB37D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8649CBC191B9594DCF18279E51CAFE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B7ED24D3E3B1232C350912D6B4944B /* Foundation.framework in Frameworks */,
+				71501BC07874A5BC261129E780709A27 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22D39D27B2DC34CF682B4C15CA3F8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9806A20A59B2A432A79BB910FE892EAA /* Foundation.framework in Frameworks */,
+				F1DA0E889AB39F9179C87819A27842B6 /* MZAppearance.framework in Frameworks */,
+				D0171AAA6E020B5E2357F5FE42B432D2 /* QuartzCore.framework in Frameworks */,
+				524434378FD73FFE267594F09B2076E7 /* UIImage_BlurredFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CA318E99B7E81F01C1EDF0EE91C392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EDE8864381041A56675386778510E30 /* UIImage+BlurredFrame.modulemap */,
+				1D1656727944155F3B7B71651859D2AF /* UIImage+BlurredFrame-dummy.m */,
+				197D65614998962FF23C7CD6290BE03C /* UIImage+BlurredFrame-Info.plist */,
+				C971247FC24190ABBCD1177EAE2F370C /* UIImage+BlurredFrame-prefix.pch */,
+				6A9934D6798241589DF6101B7B09F1EA /* UIImage+BlurredFrame-umbrella.h */,
+				606437D16003AA5C72CF930AEBDBF5A1 /* UIImage+BlurredFrame.debug.xcconfig */,
+				B28058144F827C70AF4E99F20572040C /* UIImage+BlurredFrame.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+BlurredFrame";
+			sourceTree = "<group>";
+		};
+		0CE337CF588AAC6B8BFCD9AB5D99972C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63489BE4BAA35806799F78A9C466E155 /* MZAppearance.framework */,
+				875066AFDF1FA90B9F1963916DACBD98 /* UIImage_BlurredFrame.framework */,
+				D9BFD606CE406CC8DE083F52E2846AC2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229F979041F2F66413F2142F03F8F757 /* UIImage+BlurredFrame */ = {
+			isa = PBXGroup;
+			children = (
+				662FCD0572C07F21FB8539202AFCE589 /* UIImage+BlurredFrame.h */,
+				298C6D71F674C72FC6ADAD02324AD8C0 /* UIImage+BlurredFrame.m */,
+				DA829F980A924A55DE6CBE850CC37918 /* UIImage+ImageEffects.h */,
+				BF71AED63E2BB05E6EB106495E75CF86 /* UIImage+ImageEffects.m */,
+				02CA318E99B7E81F01C1EDF0EE91C392 /* Support Files */,
+			);
+			name = "UIImage+BlurredFrame";
+			path = "UIImage+BlurredFrame";
+			sourceTree = "<group>";
+		};
+		312B3644B35D2604493225EC4067BE53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33937E5F2CF0FBDA356A8ED40F23D986 /* Pods-BlurModal */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33937E5F2CF0FBDA356A8ED40F23D986 /* Pods-BlurModal */ = {
+			isa = PBXGroup;
+			children = (
+				D34AF518B8995025877437FBE2075A87 /* Pods-BlurModal.modulemap */,
+				4417676A25A074721D7AB67D119E145A /* Pods-BlurModal-acknowledgements.markdown */,
+				B1ED6A3D53FD541B2BDB1AF2117BE940 /* Pods-BlurModal-acknowledgements.plist */,
+				9082B9315ABFE8FBF13FA9700A0B2E03 /* Pods-BlurModal-dummy.m */,
+				1BB3E5C9B7B20F8A5C5347ABAA7B0B41 /* Pods-BlurModal-frameworks.sh */,
+				AF27DBF4ACF3A7523705C553FDC7F2C5 /* Pods-BlurModal-Info.plist */,
+				15FAF7D5A8C974EF16AFFC2E97295D47 /* Pods-BlurModal-umbrella.h */,
+				07921233F52CA3F6B57579674D05099D /* Pods-BlurModal.debug.xcconfig */,
+				B7155DB2E279BF6CB7A45106DED46E64 /* Pods-BlurModal.release.xcconfig */,
+			);
+			name = "Pods-BlurModal";
+			path = "Target Support Files/Pods-BlurModal";
+			sourceTree = "<group>";
+		};
+		3D2C0722C3016E55DE1302C69A071AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58540C278D2DF6C2D7ADE4EC98357382 /* BlurryModalSegue.framework */,
+				3F1088A590A6B8F7B073B28E1DF764EE /* MZAppearance.framework */,
+				CA407ACF491D409D5BAAB63B0533F128 /* Pods_BlurModal.framework */,
+				116D3F8E1CF1E134D3543D61ED71A874 /* UIImage_BlurredFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C138477B3EF1126A6D70DF4808C647 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4619A8A7F5059958F1E37EDA9A91CF3E /* BlurryModalSegue.modulemap */,
+				7D4AA7869341832A894C0B64CE855702 /* BlurryModalSegue-dummy.m */,
+				3E84FC859B7E2FAC71660942AE863F9F /* BlurryModalSegue-Info.plist */,
+				4981916930359C342E44D3473A314871 /* BlurryModalSegue-prefix.pch */,
+				9361D7090C13830D41EE0CFDBD8A4DD4 /* BlurryModalSegue-umbrella.h */,
+				D8649CC9556FE95E14E3C3BFAAD480E1 /* BlurryModalSegue.debug.xcconfig */,
+				C93FAFE32D177B81C2FA34CB8CFB5D7C /* BlurryModalSegue.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlurryModalSegue";
+			sourceTree = "<group>";
+		};
+		46A0136430466352841FABD02D6CCF7C /* BlurryModalSegue */ = {
+			isa = PBXGroup;
+			children = (
+				082C432A8BE9ACD75719382137A3F7CC /* BlurryModalSegue.h */,
+				7C155696EEDD5AD76E98A87D6FB5C659 /* BlurryModalSegue.m */,
+				44C138477B3EF1126A6D70DF4808C647 /* Support Files */,
+			);
+			name = BlurryModalSegue;
+			path = BlurryModalSegue;
+			sourceTree = "<group>";
+		};
+		4BEA5F01C1F85ACF8F13A22403283AE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D7311339CFC79909A377D5223252745 /* MZAppearance.modulemap */,
+				681496D8A4B59B0F8D7CCB2A7F1861FA /* MZAppearance-dummy.m */,
+				1A0242674D981D3D73E0DD059793052A /* MZAppearance-Info.plist */,
+				0E8A6F2264EAAF0F0F5046E588A129D4 /* MZAppearance-prefix.pch */,
+				B2719D037C0DF5D17226291CABD839E1 /* MZAppearance-umbrella.h */,
+				A693E809D7F82EF89235792A4E688470 /* MZAppearance.debug.xcconfig */,
+				18FC26B52FB0B433BBB524FE6DAC70F4 /* MZAppearance.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZAppearance";
+			sourceTree = "<group>";
+		};
+		C3124F8ED239EBA10A90699888A186D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A0136430466352841FABD02D6CCF7C /* BlurryModalSegue */,
+				D0019DBF467D939EAF76DCE1A5211DE5 /* MZAppearance */,
+				229F979041F2F66413F2142F03F8F757 /* UIImage+BlurredFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0CE337CF588AAC6B8BFCD9AB5D99972C /* Frameworks */,
+				C3124F8ED239EBA10A90699888A186D3 /* Pods */,
+				3D2C0722C3016E55DE1302C69A071AAD /* Products */,
+				312B3644B35D2604493225EC4067BE53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0019DBF467D939EAF76DCE1A5211DE5 /* MZAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				A27B88A87156E12CBBB753D365E709A7 /* MZAppearance.h */,
+				6E43BD2064B64FFA3C6524E2BE80A4E7 /* MZAppearance.m */,
+				4A15ADF4B109E7F7288056AB656792F0 /* NSInvocation+Copy.h */,
+				A221F1F57CBFBF3296DC4A68479569D6 /* NSInvocation+Copy.m */,
+				4BEA5F01C1F85ACF8F13A22403283AE9 /* Support Files */,
+			);
+			name = MZAppearance;
+			path = MZAppearance;
+			sourceTree = "<group>";
+		};
+		D9BFD606CE406CC8DE083F52E2846AC2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45FFB40C3C41C9AB54D9B961C7DF2862 /* Foundation.framework */,
+				70417FCC6A21BA83725E5B0E979C96D5 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		087B7228811FD8DE52EDCE89623CBB9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650F23312684B8373FDA1E2EA005E26 /* Pods-BlurModal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D671554E818330E71B5FF9AA141F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BED93FA4ABEF835D1D538887F14348 /* UIImage+BlurredFrame-umbrella.h in Headers */,
+				D90EED71FBD10581FC6A6167AF3B7A41 /* UIImage+BlurredFrame.h in Headers */,
+				B21CDF31E812E03D5A31C72552949541 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613A812255502FFEC3EFDEDED4D2B083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CE273D4F2D706DEA6EBDADDEE97B0C /* BlurryModalSegue-umbrella.h in Headers */,
+				28D84DA42D7071B276765B653C14A4D2 /* BlurryModalSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE71DB6BAA54383256E84E7963EA24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75FE8936B2C40273093DA946C7784AC /* MZAppearance-umbrella.h in Headers */,
+				F2057FE552D38389C09DCECD6EFE5D4C /* MZAppearance.h in Headers */,
+				A40229A0DE1B71243FC74268FDAFC912 /* NSInvocation+Copy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32297E4E5CA00F1079CF19B0F5BEBB3A /* BlurryModalSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F580ADACCEC264F9644A6C694EF87750 /* Build configuration list for PBXNativeTarget "BlurryModalSegue" */;
+			buildPhases = (
+				613A812255502FFEC3EFDEDED4D2B083 /* Headers */,
+				D93D289CD9E84303CFDBF5AE0DCAE719 /* Sources */,
+				B22D39D27B2DC34CF682B4C15CA3F8B0 /* Frameworks */,
+				72304A4BA3B2BACE83388A6FCE3A12B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B467BC656DDCB49E702C7FDF07E8B24D /* PBXTargetDependency */,
+				6088243F649DBC3F5BB89F5953CCE028 /* PBXTargetDependency */,
+			);
+			name = BlurryModalSegue;
+			productName = BlurryModalSegue;
+			productReference = 58540C278D2DF6C2D7ADE4EC98357382 /* BlurryModalSegue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		793799F6E598EF23DACB88E3C9CF8E48 /* MZAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFE07B613DAE413E331F0565BACBE5D /* Build configuration list for PBXNativeTarget "MZAppearance" */;
+			buildPhases = (
+				FBDE71DB6BAA54383256E84E7963EA24 /* Headers */,
+				1E52893E9D24E0842A48BE1333221D25 /* Sources */,
+				8649CBC191B9594DCF18279E51CAFE0B /* Frameworks */,
+				69AA051F1EF640F46E59C51057EBB988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZAppearance;
+			productName = MZAppearance;
+			productReference = 3F1088A590A6B8F7B073B28E1DF764EE /* MZAppearance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB32BBF1DDC9AD9E950BA1F464494B13 /* UIImage+BlurredFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B509032CA44821F1BBF632B4C0202D6 /* Build configuration list for PBXNativeTarget "UIImage+BlurredFrame" */;
+			buildPhases = (
+				1BB3D671554E818330E71B5FF9AA141F /* Headers */,
+				99CD6690723FD5C6BF9412D473C813D0 /* Sources */,
+				306DD9D34D54891133CBBA919C16F2F7 /* Frameworks */,
+				88469B3189A42077E9879407F6D8F9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage+BlurredFrame";
+			productName = "UIImage+BlurredFrame";
+			productReference = 116D3F8E1CF1E134D3543D61ED71A874 /* UIImage_BlurredFrame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F85D96B37557730918CC198D2E48BC42 /* Pods-BlurModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27423EB13C97596D3E0864A5547F2FE /* Build configuration list for PBXNativeTarget "Pods-BlurModal" */;
+			buildPhases = (
+				087B7228811FD8DE52EDCE89623CBB9F /* Headers */,
+				263E453B50BC80D1855C1A6EA97CB2FB /* Sources */,
+				733ED3C09EDBEF4B71FB2951F0029C87 /* Frameworks */,
+				56CC62112EA48C8EFAC95F233D155CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6CEBCBE66152813F253B6FE07A61FD /* PBXTargetDependency */,
+				90850F90F99D6FE1E5063D7D700369F2 /* PBXTargetDependency */,
+				7FAD8FF80CD822C48E6916CABCCCD192 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlurModal";
+			productName = "Pods-BlurModal";
+			productReference = CA407ACF491D409D5BAAB63B0533F128 /* Pods_BlurModal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D2C0722C3016E55DE1302C69A071AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32297E4E5CA00F1079CF19B0F5BEBB3A /* BlurryModalSegue */,
+				793799F6E598EF23DACB88E3C9CF8E48 /* MZAppearance */,
+				F85D96B37557730918CC198D2E48BC42 /* Pods-BlurModal */,
+				EB32BBF1DDC9AD9E950BA1F464494B13 /* UIImage+BlurredFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CC62112EA48C8EFAC95F233D155CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AA051F1EF640F46E59C51057EBB988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72304A4BA3B2BACE83388A6FCE3A12B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88469B3189A42077E9879407F6D8F9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E52893E9D24E0842A48BE1333221D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9527681118DA59B9263459AB5C6A85E5 /* MZAppearance-dummy.m in Sources */,
+				B357F6896F96DB57BCC803804F887D1C /* MZAppearance.m in Sources */,
+				D3A59411F01A7598EF419E9E5EB64F42 /* NSInvocation+Copy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263E453B50BC80D1855C1A6EA97CB2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BA3C333B4550B26939C3DCAAB4A10B /* Pods-BlurModal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD6690723FD5C6BF9412D473C813D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A2CC4E7EA4500EAC20B19C44DFF575 /* UIImage+BlurredFrame-dummy.m in Sources */,
+				1D74987F3461242F1E9D8AFCD386AA8E /* UIImage+BlurredFrame.m in Sources */,
+				7D5F2C1FB60E55652A3293FC2A305065 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93D289CD9E84303CFDBF5AE0DCAE719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2159EDFEE32C8CB8641D0B72D74B0AC /* BlurryModalSegue-dummy.m in Sources */,
+				E726958754EE617C438F35EC629663B0 /* BlurryModalSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A6CEBCBE66152813F253B6FE07A61FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlurryModalSegue;
+			target = 32297E4E5CA00F1079CF19B0F5BEBB3A /* BlurryModalSegue */;
+			targetProxy = 10CB75EB559F19C343D7AF42C94CB650 /* PBXContainerItemProxy */;
+		};
+		6088243F649DBC3F5BB89F5953CCE028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BlurredFrame";
+			target = EB32BBF1DDC9AD9E950BA1F464494B13 /* UIImage+BlurredFrame */;
+			targetProxy = A27220EB59B18BFDF67270B2B8C741FF /* PBXContainerItemProxy */;
+		};
+		7FAD8FF80CD822C48E6916CABCCCD192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BlurredFrame";
+			target = EB32BBF1DDC9AD9E950BA1F464494B13 /* UIImage+BlurredFrame */;
+			targetProxy = F715404B4B781205488B4AD786BBE345 /* PBXContainerItemProxy */;
+		};
+		90850F90F99D6FE1E5063D7D700369F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = 793799F6E598EF23DACB88E3C9CF8E48 /* MZAppearance */;
+			targetProxy = 0ABA90CB8B97C79961033933D221453D /* PBXContainerItemProxy */;
+		};
+		B467BC656DDCB49E702C7FDF07E8B24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = 793799F6E598EF23DACB88E3C9CF8E48 /* MZAppearance */;
+			targetProxy = 66D23F414B3D799ADFC07E665627F13B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04401EDC1197B872609390B90745B6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A693E809D7F82EF89235792A4E688470 /* MZAppearance.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAppearance/MZAppearance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MZAppearance/MZAppearance.modulemap";
+				PRODUCT_MODULE_NAME = MZAppearance;
+				PRODUCT_NAME = MZAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1028A28A6264012086A93322CAA30E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07921233F52CA3F6B57579674D05099D /* Pods-BlurModal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlurModal/Pods-BlurModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlurModal/Pods-BlurModal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		539C0B3A1BF1030DFAFBAD1B152D9730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28058144F827C70AF4E99F20572040C /* UIImage+BlurredFrame.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame.modulemap";
+				PRODUCT_MODULE_NAME = UIImage_BlurredFrame;
+				PRODUCT_NAME = UIImage_BlurredFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		554941191B94634A4E9B796671D76A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93FAFE32D177B81C2FA34CB8CFB5D7C /* BlurryModalSegue.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlurryModalSegue/BlurryModalSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlurryModalSegue/BlurryModalSegue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BlurryModalSegue/BlurryModalSegue.modulemap";
+				PRODUCT_MODULE_NAME = BlurryModalSegue;
+				PRODUCT_NAME = BlurryModalSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		614F1D8FFF96A23E7B815286DC6F4ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7155DB2E279BF6CB7A45106DED46E64 /* Pods-BlurModal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlurModal/Pods-BlurModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlurModal/Pods-BlurModal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7043C5B6EFAFB52050F494CCFC4FF958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8649CC9556FE95E14E3C3BFAAD480E1 /* BlurryModalSegue.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlurryModalSegue/BlurryModalSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlurryModalSegue/BlurryModalSegue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BlurryModalSegue/BlurryModalSegue.modulemap";
+				PRODUCT_MODULE_NAME = BlurryModalSegue;
+				PRODUCT_NAME = BlurryModalSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9362B39387A9FC030F03F0E2246E4601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FC26B52FB0B433BBB524FE6DAC70F4 /* MZAppearance.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAppearance/MZAppearance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MZAppearance/MZAppearance.modulemap";
+				PRODUCT_MODULE_NAME = MZAppearance;
+				PRODUCT_NAME = MZAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97990A70037F43F0F465877B604777D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606437D16003AA5C72CF930AEBDBF5A1 /* UIImage+BlurredFrame.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIImage+BlurredFrame/UIImage+BlurredFrame.modulemap";
+				PRODUCT_MODULE_NAME = UIImage_BlurredFrame;
+				PRODUCT_NAME = UIImage_BlurredFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFE07B613DAE413E331F0565BACBE5D /* Build configuration list for PBXNativeTarget "MZAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04401EDC1197B872609390B90745B6CE /* Debug */,
+				9362B39387A9FC030F03F0E2246E4601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B509032CA44821F1BBF632B4C0202D6 /* Build configuration list for PBXNativeTarget "UIImage+BlurredFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97990A70037F43F0F465877B604777D7 /* Debug */,
+				539C0B3A1BF1030DFAFBAD1B152D9730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27423EB13C97596D3E0864A5547F2FE /* Build configuration list for PBXNativeTarget "Pods-BlurModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1028A28A6264012086A93322CAA30E34 /* Debug */,
+				614F1D8FFF96A23E7B815286DC6F4ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F580ADACCEC264F9644A6C694EF87750 /* Build configuration list for PBXNativeTarget "BlurryModalSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7043C5B6EFAFB52050F494CCFC4FF958 /* Debug */,
+				554941191B94634A4E9B796671D76A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

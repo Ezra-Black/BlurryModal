@@ -1,0 +1,24 @@
+PODS:
+  - BlurryModalSegue (1.1.2):
+    - MZAppearance (~> 1.1.1)
+    - "UIImage+BlurredFrame (~> 0.0.4)"
+  - MZAppearance (1.1.6)
+  - "UIImage+BlurredFrame (0.0.4)"
+
+DEPENDENCIES:
+  - BlurryModalSegue
+
+SPEC REPOS:
+  trunk:
+    - BlurryModalSegue
+    - MZAppearance
+    - "UIImage+BlurredFrame"
+
+SPEC CHECKSUMS:
+  BlurryModalSegue: 35cdad34eba31228e4d84073033a9ea7d6537aa4
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  "UIImage+BlurredFrame": ad2f7195c6947ea3117c7d202f75a51958d5061a
+
+PODFILE CHECKSUM: 1dbd30b713bf3a0d444100bf2eeea9c7179c487c
+
+COCOAPODS: 1.9.1
